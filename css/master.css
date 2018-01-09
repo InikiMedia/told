@@ -1,0 +1,61 @@
+@page {
+  size: 11in 8.5in;
+  margin: 0in
+}
+
+html {
+  background-color: silver;
+  font-family: monospace;
+}
+
+img{
+  max-width: 325px
+}
+h1{
+  margin-top: 0px;
+  padding: 3px;
+  text-transform: uppercase;
+}
+#takeoff-block{
+  padding: 5px;
+  position: absolute;
+  top: 10px;
+  left: 3%;
+  width: 30%;
+  height: 8in;
+  border: 1px solid rgb(126,126,126);
+  background-color: rgb(200, 200, 200);
+}
+#landing-block{
+  padding: 5px;
+  position: absolute;
+  top: 10px;
+  left: 35%;
+  width: 30%;
+  height: 8in;
+  border: 1px solid rgb(126,126,126);
+  background-color: rgb(200, 200, 200);
+}
+#extra-block{
+  padding: 5px;
+  position: absolute;
+  top: 10px;
+  left: 67%;
+  width: 30%;
+  height: 8in;
+  border: 1px solid rgb(126,126,126);
+  background-color: rgb(200, 200, 200);
+}
+#fbo-image{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.block-box{
+  border: 1px solid black;
+}
+.block-data{
+  margin-top: 5px;
+  padding: 5px;
+  height: 100px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aircraft TOLD Card</title>
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+    <!-- Takeoff Page -->
+    <div id="takeoff-block">
+      <h1>Takeoff</h1>
+      <p>ICAO Dep.______ Elev.______ Temp.______</p>
+      <p>Flap____ Weight ________ Rwy Req.______</p>
+      <p>MATOW/RWY:_____________ / _____________</p>
+      <div id="atis" class="block-box block-data">
+        ATIS___
+      </div>
+      <div id="clearance" class="block-box block-data">
+        Clearance
+      </div>
+      <div id="takeoff-notes" class="block-data">
+        Notes:
+      </div>
+      <div id="takeoff-speeds" class="block-data">
+        <p>V<sub>1</sub>&nbsp&nbsp&nbsp________</p>
+        <p>V<sub>R</sub>&nbsp&nbsp&nbsp________</p>
+        <p>V<sub>2</sub>&nbsp&nbsp&nbsp___/____</p>
+        <p>V<sub>FS</sub>&nbsp&nbsp________</p>
+        <p>V<sub>ENR</sub>&nbsp________</p>
+        <p>V<sub>REF</sub>&nbsp________</p>
+      </div>
+    </div>
+    <!-- Landing Page -->
+    <div id="landing-block">
+      <h1 style="text-align:right;">Landing</h1>
+      <p>ICAO Arr.______ Elev.______ Temp.______</p>
+      <p>Flap____ Weight ________ Rwy Req.______</p>
+      <p>MALW/RWY:_____________ / ______________</p>
+      <div id="atis" class="block-box block-data">
+        ATIS___
+      </div>
+      <div id="landing-speeds" class="block-data">
+        <p>V<sub>REF</sub>&nbsp&nbsp________</p>
+        <p>V<sub>AP</sub>&nbsp&nbsp&nbsp________</p>
+        <p>V<sub>AC</sub>&nbsp&nbsp&nbsp________</p>
+      </div>
+      <div id="landing-notes" class="block-data">
+        Notes:
+      </div>
+      <table id="fuel-flight">
+      <tr>
+<td>      <div id="fuel" class="block-data block-box" style="height: 130px">
+        <p><b><center>Fuel Information</b></center></p>
+        <p>Gal. Purchased_____</p>
+        <p>Fuel Qty Start_____</p>
+        <p>Fuel Qty Stop _____</p>
+      </div></td>
+<td>      <div id="flight-times" class="block-data" style="height: 130px">
+        <p><b><center>Post Flight Times</b></center></p>
+        <p>Block Out ______</p>
+        <p>Flight Out______</p>
+        <p>Flight In ______</p>
+        <p>Block In &nbsp______</p>
+      </div></td>
+    </tr>
+    </table>
+
+      <div>
+        <p>FBO Name ___________________________</p>
+        <p>FBO Freq.________</p>
+      </div>
+    </div>
+    <!-- Extra Page -->
+    <div id="extra-block">
+      <h1>Weather&AirportInfo</h1>
+      <div id="fbo-image">
+        <img src="https://flttrack.fltplan.com/AirportDiagrams/KTEBapt.jpg" alt="FBO location image">
+      </div>
+    </div>
+  </body>
+</html>
